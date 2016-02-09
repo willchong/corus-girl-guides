@@ -1,0 +1,171 @@
+/* color constants */
+/*
+navy blue: #00549e;
+light blue: #749dd3;
+grey: #999999;
+white: #fff;
+
+accent yellow: #fecf1b;
+accent orange: #da6f00;
+accent red: #d80f46;
+accent green: #146b03;
+*/
+
+@font-face {
+    font-family: "Titling_Gothic_Cond";
+    src: url(../fonts/TitlingGothicFBCond-Med.otf);
+}
+
+/*  BODY BLOCKS  */
+html, body {
+	background-color: #749dd3;
+}
+
+.container {
+	width: 100%;
+}
+
+.header.container {
+	background-color: #fff;
+}
+
+.nav.container {
+	background-color: #00549e;
+}
+
+.main.container {
+	background-color: #749dd3;
+}
+
+.container .row {
+	max-width: 960px;
+}
+
+/*  TOP BRANDING  */
+.branding {
+	display: block;
+	width: 100%;
+	height: 7px;
+}
+
+.branding .colorblock-10 {
+	width: 10%;
+	height: 100%;
+	float: left;
+	display: block;
+}
+.subbranding {
+	display: block;
+	width: 98%;
+	margin: 0 auto;
+	height: 7px;
+}
+.subbranding .colorblock-6 {
+	width: 16.6667%;
+	height: 100%;
+	float: left;
+	display: block;
+}
+/*  NAVIGATION  */
+
+.navigation {
+	display: block;
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navigation li {
+	display: block;
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding: 2px 16px 0px;
+}
+
+.navigation li a {
+	font-family: "Titling_Gothic_Cond";
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	font-size: 24px;
+}
+
+.navigation li a:hover {
+	color: #749dd3;
+}
+
+/*  MAIN SECTIONS  */
+
+.header .logo img {
+	position: absolute;
+	top: 28px;
+}
+
+.main {
+	background: url('../img/main-bg.jpg') repeat-x top #749dd3;
+	height: 100%;
+}
+
+.main .row {
+	background-color: #fff;
+}
+
+a.cta {
+	font-family: "Titling_Gothic_Cond";
+	text-transform: uppercase;
+	right: 110px;
+	top: -80px;
+	padding: 10px 46px 8px;
+	background-color: #00549e;
+	border: 1px solid #00549e;
+	transition: background-color 200ms ease-out;
+}
+.prizes {
+	text-align: center;
+}
+
+.enter {
+	text-align: center;
+}
+
+a.cta:hover {
+	background-color: #fff;
+	color: #00549e;
+}
+
+/*  TYPOGRAPHY  */
+h2 {
+	font-family: "Titling_Gothic_Cond";
+	text-transform: uppercase;
+	color: #00549e;
+	font-size: 40px;
+}
+
+.text-align-right {
+	text-align: right;
+}
+.text-align-center {
+	text-align: center;
+}
+
+/*  COLORS  */
+
+.accent-yellow { color: #fecf1b; }
+.fill-yellow { background-color: #fecf1b; }
+
+.accent-light-blue { color: #749dd3; }
+.fill-light-blue { background-color: #749dd3; }
+
+.accent-pink { color: #f7adc3; }
+.fill-pink { background-color: #f7adc3; }
+
+.accent-orange { color: #da6f00; }
+.fill-orange { background-color: #da6f00; }
+
+.accent-red { color: #d80f46; }
+.fill-red { background-color: #d80f46; }
+
+.accent-green { color: #146b03; }
+.fill-green { background-color: #146b03; }
